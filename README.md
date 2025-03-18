@@ -28,8 +28,8 @@
 
 1. 저장소 클론:
    ```bash
-   git clone https://github.com/username/ml-tutorials.git
-   cd ml-tutorials
+   git clone https://github.com/TEAMLAB-Lecture/ML-class-codes.git
+   cd ML-class-codes
    ```
 
 2. `start.bat` 더블클릭으로 실행
@@ -39,8 +39,8 @@
 
 ```bash
 # 저장소 클론
-git clone https://github.com/username/ml-tutorials.git
-cd ml-tutorials
+git clone https://github.com/TEAMLAB-Lecture/ML-class-codes.git
+cd ML-class-codes
 
 # Docker 컨테이너 빌드 및 실행
 docker-compose up -d
@@ -105,9 +105,9 @@ nvidia-smi
 
 ## 📮 연락처
 
-- GitHub Issues: [이슈 생성](https://github.com/username/ml-tutorials/issues)
+- GitHub Issues: [이슈 생성](https://github.com/TEAMLAB-Lecture/ML-class-codes/issues)
 - 이메일: your.email@example.com
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=username/ml-tutorials&type=Date)](https://star-history.com/#username/ml-tutorials&Date) 
+[![Star History Chart](https://api.star-history.com/svg?repos=TEAMLAB-Lecture/ML-class-codes&type=Date)](https://star-history.com/#TEAMLAB-Lecture/ML-class-codes&Date) 

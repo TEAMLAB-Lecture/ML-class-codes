@@ -11,14 +11,6 @@ if errorlevel 1 (
     exit /b 1
 )
 
-REM Check GPU availability
-nvidia-smi >nul 2>&1
-if errorlevel 1 (
-    echo NVIDIA GPU not detected. Running without GPU support...
-) else (
-    echo NVIDIA GPU detected. Running with GPU support...
-)
-
 REM Start Docker container
 echo Starting Docker container...
 cd examples

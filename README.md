@@ -12,7 +12,6 @@
 ## 🚀 주요 기능
 
 - 📦 Docker 기반 개발 환경
-- 🔧 GPU 지원 (NVIDIA CUDA)
 - 📓 Jupyter 노트북
 - 🎓 단계별 튜토리얼
 - 🔄 다양한 ML 프레임워크 예제
@@ -20,7 +19,6 @@
 ## 📋 사전 요구사항
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- [NVIDIA GPU 드라이버](https://www.nvidia.com/download/index.aspx) (GPU 지원을 위해)
 - [Git](https://git-scm.com/downloads)
 
 ## 🏃‍♂️ 시작하기
@@ -89,21 +87,15 @@ docker-compose up -d
 
 ### Docker 설정
 
-- 기본 이미지: `nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04`
+- 기본 이미지: `ubuntu:22.04`
 - Python 패키지:
   - NumPy
   - scikit-learn
-  - TensorFlow 2.12+
-  - PyTorch 2.0+
+  - TensorFlow 2.12+ (CPU 버전)
+  - PyTorch 2.0+ (CPU 버전)
   - Jupyter
   - Pandas
   - Matplotlib
-
-### GPU 지원 확인
-
-```bash
-nvidia-smi
-```
 
 ## 🤝 기여하기
 
